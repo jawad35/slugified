@@ -1,4 +1,4 @@
-function string_to_slug(str, venue) {
+function slugified(str, venue) {
   str = str.replace(/^\s+|\s+$/g, ""); // trim
   str = str.toLowerCase();
   venue = venue.replace(/^\s+|\s+$/g, ""); // trim
@@ -26,5 +26,6 @@ function string_to_slug(str, venue) {
   return "/" + str + "-event-/" + venue;
 }
 
-const f = string_to_slug("Wazirabad-cheema-chok", "raja chok");
-console.log(f);
+// const string = slugified('Bristol','Thekla');
+// console.log(string);
+// /bristol-events/thekla
