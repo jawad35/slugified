@@ -29,3 +29,4 @@ function slugified(town, venue) {
 // const string = slugified("Bristol", "Thekla");
 // console.log(string);
 // /bristol-events/thekla
+// this is the output
